@@ -1,14 +1,17 @@
 import React from 'react';
-import '../css/Navbar.css';
+// import '../css/Navbar.css';
+import { Link } from 'react-router-dom';
 
  export default function Navbar() {
     return ( 
         <> 
              <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-    <a className="navbar-brand text-warning "  href="#">
+    {/* <a className="navbar-brand text-warning "  href="#">
       HOTELIER
-    </a>
+    </a> */} 
+      <Link to={"/"} className="navbar-brand text-warning "  >HOTELIER</Link>
+
     {/* <button
       className="navbar-toggler"
       type="button"
@@ -23,28 +26,32 @@ import '../css/Navbar.css';
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">
+          {/* <a className="nav-link active" aria-current="page" href="#">
             Home
-          </a>
+          // </a> */}  
+
+
+           <Link to={"/about"} className="nav-link active" > About </Link>
         </li> 
             
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">
+          {/* <a className="nav-link active" aria-current="page" href="#">
             services
-          </a>
+          </a> */}
         </li> 
 
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">
+          {/* <a className="nav-link active" aria-current="page" href="#">
             booking
-          </a>
+          </a> */} 
+          <Link to={"/rooms"} className="nav-link active" >Rooms</Link>
         </li> 
        
               
 
         
         <li className="nav-item dropdown">
-          <a
+          {/* <a
             className="nav-link dropdown-toggle"
             href="#"
             id="navbarDropdown"
@@ -53,29 +60,30 @@ import '../css/Navbar.css';
             aria-expanded="false"
           >
             Services
-          </a>
+          </a> */} 
+          <Link to={"/contact"}  className="nav-link active" > Contact</Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
-              <a className="dropdown-item" href="#">
+              {/* <a className="dropdown-item" href="#">
                 Action
-              </a>
+              </a> */}
             </li>
           
             <li>
               <hr className="dropdown-divider" />
             </li>
             <li>
-              <a className="dropdown-item" href="#">
+              {/* <a className="dropdown-item" href="#">
                 Something else here
-              </a>
+              </a> */}
             </li>
           </ul>
         </li>  
 
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">
+          {/* <a className="nav-link active" aria-current="page" href="#">
             Contact
-          </a>
+          </a> */}
         </li>
 
        

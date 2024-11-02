@@ -1,10 +1,15 @@
 import React from 'react'
+import Rooms from '../pages/rooms' 
+import "../screens/allScreenscss.css"
 
 function Roomscrn() {
     return (
-        <div>
-            <h1>RoomsScrn</h1>
+      <> 
+        <div className="rooms-room">  
+            {/* <h1 className="text-center screens-headings " >Rooms Page</h1> */}
+            <Rooms/>
         </div>
+      </>
     )
 }
 

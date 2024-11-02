@@ -1,0 +1,16 @@
+
+
+.screens-headings{ 
+    height: 100px; 
+    /* background-color: rgb(250, 198, 161);  */
+   align-content: center;  
+   /* color: rgb(199, 107, 42);  */
+   color: rgb(240, 161, 25);
+
+    /* width: 600px; */
+    /* background-image: url('../assets/imgs/carousel-1.jpg'); */
+} 
+
+.rooms-room{
+    margin-top: 50px;
+}

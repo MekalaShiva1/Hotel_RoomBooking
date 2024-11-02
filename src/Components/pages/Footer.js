@@ -68,22 +68,22 @@ function Footer() {
               />
               <p>
                 <a href="#!" className="text-white">
-                  MDBootstrap
+                  services
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-white">
-                  MDWordPress
+                  gym
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-white">
-                  BrandFlow
+                  games
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-white">
-                  Bootstrap Angular
+                  mens
                 </a>
               </p>
             </div>
@@ -125,7 +125,7 @@ function Footer() {
                 style={{ width: 60, backgroundColor: "#7c4dff", height: 2 }}
               />
               <p>
-                <i className="fas fa-home mr-3" /> New York, NY 10012, US
+                <i className="fas fa-home mr-3" /> Banglore, NY 10012, 
               </p>
               <p>
                 <i className="fas fa-envelope mr-3" /> info@example.com
@@ -149,7 +149,7 @@ function Footer() {
       >
         © 2024 Copyright:
         <a className="text-white" href="https://mdbootstrap.com/">
-          ouroffice.com
+          HOTELIER.com
         </a>
       </div>
      

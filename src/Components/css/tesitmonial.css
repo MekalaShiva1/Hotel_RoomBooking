@@ -9,7 +9,7 @@ h2 {
 	display: inline-block;
 }
 
-/* Uncomment this section if you need a line under the heading */
+
 /*
 h2::after {
 	content: "";
@@ -23,12 +23,12 @@ h2::after {
 }
 */
 
-/* Carousel Container */
+
 .carousel {
 	margin: 50px auto;
 }
 
-/* Carousel Item */
+
 .carousel .carousel-item {
 	color: #999;
 	overflow: hidden;
@@ -36,7 +36,7 @@ h2::after {
 	font-size: 13px;
 }
 
-/* Media Section */
+
 .carousel .media {
 	position: relative;
 	padding: 0 0 0 20px;
@@ -52,7 +52,6 @@ h2::after {
 	border: 2px solid #fff;
 }
 
-/* Testimonial Section */
 .carousel .testimonial {
 	color: #fff;
 	position: relative;
@@ -85,7 +84,7 @@ h2::after {
 	border-left-color: #fff;
 }
 
-/* Adjusting Margin for Carousel Items */
+
 .carousel .carousel-item .row > div:first-child .testimonial {
 	margin: 0 20px 20px 0;
 }
@@ -112,7 +111,7 @@ h2::after {
 	top: 0;
 }
 
-/* Overview Section */
+
 .carousel .overview {
 	padding: 3px 0 0 15px;
 }
@@ -126,7 +125,7 @@ h2::after {
 	color: #ff5555;
 }
 
-/* Carousel Controls */
+
 .carousel-control-prev,
 .carousel-control-next {
 	width: 30px;
@@ -150,7 +149,7 @@ h2::after {
 	left: auto;
 }
 
-/* Carousel Indicators */
+
 .carousel-indicators {
 	bottom: -80px;
 }
@@ -175,7 +174,7 @@ h2::after {
 	border: 5px double;
 }
 
-/* Star Rating */
+
 .star-rating li {
 	padding: 0 2px;
 }
