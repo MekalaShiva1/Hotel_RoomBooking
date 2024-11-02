@@ -1,0 +1,41 @@
+.carousel-container {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    /* text-align: center; */
+  }
+  
+  .carousel-image-wrapper {
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 1100px;
+    height: 500px;
+  }
+  
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
