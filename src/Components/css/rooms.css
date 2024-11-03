@@ -30,12 +30,12 @@
     
 }    
 
-.card-text{
+/* .card-text{
     opacity: 1;
 }
 .card-text:hover{
     opacity: 0;
-}
+} */
 
 .aboutroom{ 
     width: 100%;
@@ -59,6 +59,22 @@
 .aboutroom{
     transform: translateY(90px);
     transition: transform(0.5s);
+} 
+
+.roomform{
+    width: 130px; 
+    height: 40px;
+    background-color: rgb(38, 101, 247); 
+    border-radius: 10px; 
+    text-align: center; 
+    align-content: center; 
+    text-decoration: none; 
+    color: aliceblue;
+} 
+
+.roomform:hover{ 
+    background-color: rgb(61, 118, 251); 
+
 }
 
 /* .card-img-top{ 

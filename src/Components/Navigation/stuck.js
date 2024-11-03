@@ -6,6 +6,7 @@ import Roomscrn from '../screens/roomscrn';
 import CarouselPage from '../screens/CarouselPage';
 import InvalidScreen from '../screens/InvalidScreen';
 import HomePage from '../Home/HomePage';
+import BookingForm from '../pages/bookingForm';
 
 
 
@@ -22,7 +23,9 @@ function Stuck() {
                
                 <Route path="/about" element={<Aboutscrn/>} /> 
                 <Route path="/contact" element={<Contactscrn/>} /> 
-                <Route path="/rooms" element={<Roomscrn/>}/> 
+                <Route path="/rooms" element={<Roomscrn/>}/>   
+                <Route path="/roombook" element={<BookingForm></BookingForm>} />
+                {/* <Route path="/bookingroom" element={<BookingForm/>} > */}
                 <Route path="*" element={<InvalidScreen/>} />
                 
             </Routes>

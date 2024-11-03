@@ -1,4 +1,8 @@
 .navbar-collapse:hover{ 
     color: rgb(255, 128, 0);
 
+} 
+
+.nav-lin:hover{
+    color: chocolate;
 }

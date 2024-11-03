@@ -1,3 +1,6 @@
+
+
+
 import React, { useState } from 'react';
 
 function BookingForm() {
@@ -10,33 +13,36 @@ function BookingForm() {
 
     const [errors, setErrors] = useState({});
 
-
+    
     const validate = () => {
-        const errors = {};
+        const newErrors = {};
         const phoneRegex = /^[6-9]\d{9}$/;
 
-        if (!formData.username.trim()) {
-            errors.username = 'Username is required';
+        if (formData.username === '') {
+            newErrors.username = 'Username is required';
         }
-        if (!formData.mobileNumber) {
-            errors.mobileNumber = 'Mobile number is required';
+        if (formData.mobileNumber === '') {
+            newErrors.mobileNumber = 'Mobile number is required';
         } else if (!phoneRegex.test(formData.mobileNumber)) {
-            errors.mobileNumber = 'Enter a valid 10-digit mobile number';
+            newErrors.mobileNumber = 'Enter a valid 10-digit mobile number';
         }
-        if (!formData.checkInDate) {
-            errors.checkInDate = 'Check-in date is required';
+        if (formData.checkInDate === '') {
+            newErrors.checkInDate = 'Check-in date is required';
         }
-        if (!formData.checkOutDate) {
-            errors.checkOutDate = 'Check-out date is required';
+        if (formData.checkOutDate === '') {
+            newErrors.checkOutDate = 'Check-out date is required';
         } else if (formData.checkOutDate <= formData.checkInDate) {
-            errors.checkOutDate = 'Check-out date must be after check-in date';
+            newErrors.checkOutDate = 'Check-out date must be after check-in date';
         }
 
-        setErrors(errors);
-        return Object.keys(errors).length === 0;
+        setErrors(newErrors);
+        return Object.keys(newErrors).length === 0;
     };
 
- 
+  
+
+
+
     const handleSubmit = (e) => {
         e.preventDefault();
         if (validate()) {
@@ -45,8 +51,13 @@ function BookingForm() {
     };
 
   
+
+
     const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value,
+        });
     };
 
     return (
@@ -104,6 +115,8 @@ function BookingForm() {
 }
 
 
+
+
 const formContainerStyle = {
     maxWidth: '400px',
     margin: '0 auto',
@@ -146,4 +159,5 @@ const submitStyle = {
     fontSize: '16px',
     cursor: 'pointer',
 };
+
 export default BookingForm;

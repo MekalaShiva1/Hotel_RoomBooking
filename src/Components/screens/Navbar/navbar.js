@@ -31,7 +31,7 @@ import { Link } from 'react-router-dom';
           // </a> */}  
 
 
-           <Link to={"/about"} className="nav-link active" > About </Link>
+           <Link to={"/about"} className="nav-link active" > ABOUT </Link>
         </li> 
             
         <li className="nav-item">
@@ -44,7 +44,7 @@ import { Link } from 'react-router-dom';
           {/* <a className="nav-link active" aria-current="page" href="#">
             booking
           </a> */} 
-          <Link to={"/rooms"} className="nav-link active" >Rooms</Link>
+          <Link to={"/rooms"} className="nav-link active" >ROOMS</Link>
         </li> 
        
               
@@ -61,7 +61,7 @@ import { Link } from 'react-router-dom';
           >
             Services
           </a> */} 
-          <Link to={"/contact"}  className="nav-link active" > Contact</Link>
+          <Link to={"/contact"}  className="nav-link active" > CONTACT</Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
               {/* <a className="dropdown-item" href="#">

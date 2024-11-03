@@ -34,8 +34,11 @@ export default function Rooms() {
 
                             </div> */}
                             <div style={{ display: 'flex', gap: '10px' }}>
-                                <button type="button" className="btn btn-warning">VIEW DETAILS</button>
-                                <button type="button" className="btn btn-primary"  >BOOK NOW</button> 
+                                <button type="button" className="btn btn-warning">VIEW DETAILS</button> 
+                                
+                                {/* <button type="button" className="btn btn-primary"   > BOOK NOW  
+                                    </button>   */}
+                                    <Link className="roomform " to={"/roombook" } >BOOK NOW </Link> 
                             </div> 
                             <p className="card-text">
                                 <small className="text-muted">Last checkout 1 day ago</small>
@@ -61,7 +64,8 @@ export default function Rooms() {
 
                             <div style={{ display: 'flex', gap: '10px' }}>
                                 <button type="button" className="btn btn-warning">VIEW DETAILS</button>
-                                <button type="button" className="btn btn-primary">BOOK NOW</button>
+                                {/* <button type="button" className="btn btn-primary">BOOK NOW</button> */} 
+                                <Link className="roomform " to={"/roombook" } >BOOK NOW </Link> 
                             </div> 
                             <p className="card-text">
                                 <small className="text-muted">Last checkout 6 hours ago</small>
@@ -79,7 +83,8 @@ export default function Rooms() {
                             </p>
                             <div style={{ display: 'flex', gap: '10px' }}>
                                 <button type="button" className="btn btn-warning">VIEW DETAILS</button>
-                                <button type="button" className="btn btn-primary">BOOK NOW</button>
+                                {/* <button type="button" className="btn btn-primary">BOOK NOW</button> */} 
+                                <Link className="roomform " to={"/roombook" } >BOOK NOW </Link> 
                             </div> 
                             <p className="card-text">
                                 <small className="text-muted">last checkout 6 hours ago</small>
