@@ -11,6 +11,7 @@ import Footer from './Components/pages/Footer';
 import Stuck from './Components/Navigation/stuck';
 import { BrowserRouter } from 'react-router-dom';
 import HomePage from './Components/Home/HomePage';
+import Home from './TASK2/main/home';
 
 function App() {
   return (
@@ -18,13 +19,12 @@ function App() {
     <> 
      <div> 
    
-       <Navbar/>  
-       <Stuck/> 
-      
-    
+       {/* <Navbar/>  
+       <Stuck/>   */} 
+
+       <Home/>
 
     
-
      </div>
     </>
    

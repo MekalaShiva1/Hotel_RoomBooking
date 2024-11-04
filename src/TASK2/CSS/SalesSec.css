@@ -1,0 +1,70 @@
+.event-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event-type {
+    font-size: 14px;
+    color: #ff5722;
+    background-color: #ffe6e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500; 
+    width: 60px;
+    margin-bottom: 5px;
+  }
+  
+  .event-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .event-date-time {
+    display: flex;
+    align-items: center;
+    color: #888;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .event-date-time span {
+    margin-right: 10px;
+  }
+  
+  .manage-invite-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fc6e42;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .manage-invite-btn:hover {
+    background-color: #e64a19;
+  }
+  
+  .settings-icon {
+    font-size: 16px;
+  }
+  
